@@ -6,4 +6,4 @@
 6. 支持可选链
 7. 支持 stylelint
 8. 支持 commitizen
-9. 支持 husky lint-staged pre-commit
+9. 支持 husky lint-staged 提交前自动格式化代码 ✅
