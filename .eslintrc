@@ -1,0 +1,5 @@
+{
+  "extends": "airbnb",
+  // 以下规则可覆盖 Airbnb 规则
+  "rules": {}
+}
