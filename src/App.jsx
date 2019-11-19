@@ -2,6 +2,8 @@ import React from 'react';
 import logo from './logo.svg';
 import './App.css';
 
+import Component from './Component';
+
 const App = () => (
   <div className="App">
     <header className="App-header">
@@ -15,6 +17,7 @@ const App = () => (
         Learn React
       </a>
     </header>
+    <Component />
   </div>
 );
 
