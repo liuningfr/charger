@@ -2,7 +2,7 @@ import React from 'react';
 import logo from './logo.svg';
 import './App.css';
 
-import DemoComponent from './DemoComponent';
+import DemoComponent from '@/DemoComponent';
 
 const App = () => (
   <div className="App">
