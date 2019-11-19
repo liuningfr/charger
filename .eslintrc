@@ -13,8 +13,11 @@
       }
     }
   },
+  // 以下规则可覆盖 Airbnb 规则
   "rules": {
+    // 允许在 .js .jsx 文件中写 JSX 语法
     "react/jsx-filename-extension": ["error", { "extensions": [".js", ".jsx"] }],
+    // 禁用该规则，否则使用 @ 别名会报错
     "import/no-unresolved": "off"
   }
 }
