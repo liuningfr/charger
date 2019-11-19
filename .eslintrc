@@ -1,13 +1,11 @@
 {
   "extends": "airbnb",
-  // 配置可识别的全局变量
   "globals": {
     "document": true,
     "window": true,
     "node": true,
     "it": true
   },
-  // 配置可省略的后缀名
   "settings": {
     "import/resolver": {
       "node": {
@@ -15,9 +13,7 @@
       }
     }
   },
-  // 以下规则可覆盖 Airbnb 规则
   "rules": {
-    // 允许在 .js .jsx 文件中写 JSX 语法
     "react/jsx-filename-extension": ["error", { "extensions": [".js", ".jsx"] }],
     "import/no-unresolved": "off"
   }
