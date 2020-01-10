@@ -473,6 +473,8 @@ module.exports = function(webpackEnv) {
                 {
                   importLoaders: 2,
                   sourceMap: isEnvProduction && shouldUseSourceMap,
+                  // .scss 支持 CSS Module
+                  modules: true,
                 },
                 'sass-loader'
               ),
