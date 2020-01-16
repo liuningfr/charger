@@ -84,7 +84,11 @@
     "eslint-plugin-react-hooks": "^1.7.0",
     "husky": "^3.1.0",
     "lint-staged": "^9.4.3",
-    "prettier": "1.19.1"
+    "prettier": "1.19.1",
+    "stylelint": "^13.0.0",
+    "stylelint-config-recess-order": "^2.0.3",
+    "stylelint-config-standard": "^19.0.0",
+    "stylelint-order": "^4.0.0"
   },
   "husky": {
     "hooks": {
