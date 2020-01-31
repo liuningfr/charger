@@ -2,7 +2,7 @@
 2. 添加 eslint ✅
 3. 添加 prettier ✅
 4. 支持 scss & css module ✅
-5. 支持热更新
+5. 支持HMR ✅
 6. 支持可选链
 7. 支持 stylelint ✅
 8. 支持 commitizen
