@@ -8,4 +8,5 @@
 8. 支持 commitizen
 9. 支持 husky lint-staged 提交前自动格式化代码 ✅
 10. 支持 @ 别名 ✅
-10. 支持 TypeScript ✅
+11. 支持 TypeScript ✅
+12. 支持 Ant Design
