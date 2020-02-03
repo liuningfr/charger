@@ -2,10 +2,10 @@ import React from 'react';
 import styles from './DemoComponent.scss';
 
 const DemoComponent = () => {
-  const renderContent = (name: string) => name;
+  const renderContent = (name: string = 'This is Demo Component.'): string => name;
   return (
     <div className={styles.container}>
-      <p className={styles.bottom}>{renderContent('This is Demo Component.')}</p>
+      <p className={styles.bottom}>{renderContent()}</p>
     </div>
   );
 };
