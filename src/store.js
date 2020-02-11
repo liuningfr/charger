@@ -1,8 +1,8 @@
 import { setStore } from 'retalk';
-import CounterModel from './Counter/model';
+import DemoModel from '@/pages/Demo/model';
 
 const store = setStore({
-  counter: CounterModel,
+  demo: DemoModel,
 });
 
 export default store;

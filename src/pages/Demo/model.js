@@ -1,4 +1,4 @@
-class CounterModel {
+class DemoModel {
   state = {
     count: 0,
   };
@@ -28,4 +28,4 @@ class CounterModel {
   }
 }
 
-export default CounterModel;
+export default DemoModel;
