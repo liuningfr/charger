@@ -1,0 +1,13 @@
+body {
+  :global {
+    .ant-layout-header {
+      background: #fff;
+    }
+
+    .ant-layout-content {
+      min-height: 75vh;
+      margin: 16px;
+      background: #fff;
+    }
+  }
+}
