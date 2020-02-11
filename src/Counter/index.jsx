@@ -1,12 +1,13 @@
 import React from 'react';
 import { withStore } from 'retalk';
+import { Button } from 'antd';
 
 const Counter = ({ count, increment, decrement, incrementAsync }) => (
   <>
     <p>{count}</p>
-    <button onClick={increment}>+</button>
-    <button onClick={decrement}>-</button>
-    <button onClick={incrementAsync}>+ Async{incrementAsync.loading && '...'}</button>
+    <Button onClick={increment}>+</Button>
+    <Button onClick={decrement}>-</Button>
+    <Button onClick={incrementAsync}>+ Async{incrementAsync.loading && '...'}</Button>
   </>
 );
 
