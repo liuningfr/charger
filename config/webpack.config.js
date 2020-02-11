@@ -400,7 +400,7 @@ module.exports = function(webpackEnv) {
                     {
                       libraryName: "antd",
                       libraryDirectory: "es",
-                      style: "css",
+                      style: true,
                     }
                   ],
                 ],
@@ -470,6 +470,28 @@ module.exports = function(webpackEnv) {
                 modules: true,
                 getLocalIdent: getCSSModuleLocalIdent,
               }),
+            },
+            // 支持修改 antd 主题
+            {
+              test: /\.less$/,
+              use: [
+                {
+                  loader: 'style-loader',
+                },
+                {
+                  loader: 'css-loader', // translates CSS into CommonJS
+                },
+                {
+                  loader: 'less-loader', // compiles Less to CSS
+                  options: {
+                    //@link: https://github.com/ant-design/ant-design/blob/master/components/style/themes/default.less
+                    modifyVars: {
+                      // 'primary-color': "#1DA57A",
+                    },
+                    javascriptEnabled: true,
+                  },
+                },
+              ],
             },
             // Opt-in support for SASS (using .scss or .sass extensions).
             // By default we support SASS Modules with the
